@@ -1,0 +1,21 @@
+{
+    "name": "GameAnalyticsSDK - Testing",
+    "tree": {
+        "$className": "DataModel",
+        "ServerStorage": {
+            "$className": "ServerStorage",
+            "GameAnalytics": {
+                "$path": "GameAnalyticsSDK/GameAnalytics"
+            }
+        },
+        "StarterPlayer": {
+            "$className": "StarterPlayer",
+            "StarterPlayerScripts": {
+                "$className": "StarterPlayerScripts",
+                "GameAnalyticsClient": {
+                    "$path": "GameAnalyticsSDK/GameAnalyticsClient"
+                }
+            }
+        }
+    }
+}
